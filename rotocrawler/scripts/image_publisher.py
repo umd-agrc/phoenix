@@ -14,12 +14,15 @@ import rospy as rp
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 import cv2 as cv
+import sys
 
-def cv_publisher():
-    pub = rp.Publisher('image_data', Image, queue_size=1)
-    rp.init_node('camera', anonymous=False)
-    rate = rp.Rate(60) #60 Hz
-    cap = cv.VideoCapture(0)
+myargs = rp.myargv(argv=sys.argv)
+
+def cv_publisher(index=myargs[1]):
+    pub = rp.Publisher('image_raw', Image, queue_size=10)
+    rp.init_node('camera_driver', anonymous=False)
+    rate = rp.Rate(1) #60 Hz
+    cap = cv.VideoCapture(int(index))
     br = CvBridge()
 
     while not rp.is_shutdown():
