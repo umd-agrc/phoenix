@@ -1,0 +1,30 @@
+<launch>
+<!-- Argument Definition -->
+  <arg 
+    name="cam1"
+    value="0"
+  />
+  <arg
+    name="cam2"
+    value="1"
+  /> 
+
+<!-- Node Initialization -->
+  <node
+    pkg="rotocrawler"
+    type="image_publisher.py"
+    name="picamera"
+    args="$(arg cam1)"
+  />
+  <node
+    pkg="rotocrawler"
+    type="image_publisher.py"
+    name="usb_camera"
+    args="$(arg cam2)"
+  />
+  <node
+    pkg="rotocrawler"
+    type="image_subscriber.py"
+    name="listener"
+  />
+</launch>

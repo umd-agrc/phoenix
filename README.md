@@ -5,7 +5,9 @@ This project’s aim is to develop a autonomous, self-tuning navigation system f
 * rospy
 * std_msgs
 * sensor_msgs
-
-## Included in scripts
-* opencv3
 * cv_bridge
+* image_transport
+
+## Included in build
+* OpenCV
+
