@@ -1,0 +1,8 @@
+prefix=/home/mdforbes/catkin_workspace/install
+
+Name: beginner_tutorials
+Description: Description of beginner_tutorials
+Version: 0.0.0
+Cflags: -I/home/mdforbes/catkin_workspace/install/include
+Libs: -L/home/mdforbes/catkin_workspace/install/lib 
+Requires: roscpp rospy std_msgs message_runtime

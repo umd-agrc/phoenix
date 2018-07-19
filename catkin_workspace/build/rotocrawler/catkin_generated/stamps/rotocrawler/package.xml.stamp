@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rotocrawler</name>
+  <version>0.0.1</version>
+  <description>ROTOCRAWLER: A package for the AGRC's rotocralwer project for an autonomous, self-tuning rotocraft with quadruped legs.</description>
+
+  <maintainer email="esolomon@umd.edu">Eric Solomon</maintainer>
+  <license>GLPv3</license>
+  <url type="repository">https://github.com/umd-agrc/pheonix/tree/rotocopter</url>
+  <url type="website">https://wiki.ros.org/rotocrawler</url>
+  <author email="madforbes@umd.edu">Malcolm D. Forbes</author>
+  
+  <!-- Buildtool Packages -->
+  <!-- <<buildtool_depend>example_package</buildtool_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Compile/Runtime Dependencies -->
+  <!--   <depend>example_package</depend> -->
+
+  <!-- Packages to build against packages -->
+  <!-- <build_export_depend>example_package</build_export_depend> -->
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>image_transport</build_export_depend>
+  <build_export_depend>OpenCV</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+
+  <!-- Build upon Compiling -->
+  <!--   <build_depend>example_package</build_depend> -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>OpenCV</build_depend>
+  <build_depend>cv_bridge</build_depend>
+
+  <!-- Build for Runtime -->
+  <!--   <exec_depend>example_package</exec_depend> -->
+  <exec_depend>rosscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>OpenCV</exec_depend>
+  <exec_depend>cv_brdige</exec_depend>
+
+  <!-- Testing Packages -->
+  <!--   <test_depend>example_package</test_depend> -->
+
+  <!-- Documentation Packages -->
+  <!--   <doc_depend>example_package</doc_depend> -->
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

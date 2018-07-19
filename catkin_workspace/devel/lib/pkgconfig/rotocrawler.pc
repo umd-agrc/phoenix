@@ -1,0 +1,8 @@
+prefix=/home/mdforbes/catkin_workspace/devel
+
+Name: rotocrawler
+Description: Description of rotocrawler
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/mdforbes/catkin_workspace/devel/lib 
+Requires: roscpp rospy std_msgs sensor_msgs image_transport cv_bridge
