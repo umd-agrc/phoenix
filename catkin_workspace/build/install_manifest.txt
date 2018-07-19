@@ -41,4 +41,8 @@
 /home/mdforbes/catkin_workspace/install/share/beginner_tutorials/cmake/beginner_tutorials-msg-extras.cmake
 /home/mdforbes/catkin_workspace/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig.cmake
 /home/mdforbes/catkin_workspace/install/share/beginner_tutorials/cmake/beginner_tutorialsConfig-version.cmake
+<<<<<<< HEAD
 /home/mdforbes/catkin_workspace/install/share/beginner_tutorials/package.xml
+=======
+/home/mdforbes/catkin_workspace/install/share/beginner_tutorials/package.xml
+>>>>>>> dcd38228cc313ef54762fcdf474827eb4fa8e78d
