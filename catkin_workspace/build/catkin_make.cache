@@ -1,6 +1,2 @@
 beginner_tutorials:rotocrawler
-<<<<<<< HEAD
 -DCATKIN_DEVEL_PREFIX=/home/mdforbes/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/mdforbes/catkin_workspace/install -G Unix Makefiles
-=======
--DCATKIN_DEVEL_PREFIX=/home/mdforbes/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/mdforbes/catkin_workspace/install -G Unix Makefiles
->>>>>>> dcd38228cc313ef54762fcdf474827eb4fa8e78d

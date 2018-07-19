@@ -17,8 +17,4 @@ set(catkin_DOC_DEPENDS )
 set(catkin_URL_WEBSITE "http://www.ros.org/wiki/catkin")
 set(catkin_URL_BUGTRACKER "https://github.com/ros/catkin/issues")
 set(catkin_URL_REPOSITORY "https://github.com/ros/catkin")
-<<<<<<< HEAD
 set(catkin_DEPRECATED "")
-=======
-set(catkin_DEPRECATED "")
->>>>>>> dcd38228cc313ef54762fcdf474827eb4fa8e78d
