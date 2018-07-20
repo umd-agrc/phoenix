@@ -23,22 +23,22 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg1, const sensor_msgs::Im
 
 int main(int argc, char* argv[])
 {
-  ros::init(argc, argv, "sterso_image_proc");
+  ros::init(argc, argv, "stereo_image_proc");
   ros::NodeHandle nh;
   cv::namedWindow("view");
   cv::startWindowThread();
   image_transport::SubscriberFilter left_sub, right_sub;
   image_transport::ImageTransport it(nh);
-  left_sub.subscribe("camera/image", 1, imageCallback);
-  right_sub.subscribe("camera/image", 1, imageCallback);
+  left_sub.subscribe(it, "left/image", 1, image_transport::TransportHints("raw"));
+  right_sub.subscribe(it, "right/image", 1, image_transport::TransportHints("raw"));
 
   typedef message_filters::sync_policies::ApproximateTime<sensor_msgs::Image, sensor_msgs::Image> ApproximatePolicy;
   typedef message_filters::Synchronizer<ApproximatePolicy> ApproximateSync;
 
   boost::shared_ptr<ApproximateSync> approximate_sync;
 
-  approximate_sync.reset(new ApproximateSync(ApproximatePolicy(queue_size),left_sub,right_sub));
-  approximate_sync->registerCallback(boost::bind(callback, _1, _2));
+  approximate_sync.reset(new ApproximateSync(ApproximatePolicy(1),left_sub,right_sub));
+  approximate_sync->registerCallback(boost::bind(imageCallback, _1, _2));
 
   ros::spin();
   cv::destroyWindow("view");

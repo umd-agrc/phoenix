@@ -12,23 +12,23 @@
 <!-- Node Initialization -->
   <node
     pkg="rotocrawler"
-    type="image_publisher.py"
+    type="image_publisher"
     name="picamera"
     args="$(arg cam1)">
     <remap from="camera/image" to="left/image_raw" />
   </node>
   <node
     pkg="rotocrawler"
-    type="image_publisher.py"
+    type="image_publisher"
     name="usb_camera"
     args="$(arg cam2)">
     <remap from="camera/image" to="right/image_raw" />
   </node>
   <node
     pkg="rotocrawler"
-    type="image_subscriber.py"
+    type="image_subscriber"
     name="stereo_image_proc">
-    <remap from="camera/image" to="left/image_raw" />
-    <remap from="camera/image" to="right/image_raw" />
+    <remap from="left/image" to="left/image_raw" />
+    <remap from="right/image" to="right/image_raw" />
   </node>
 </launch>
