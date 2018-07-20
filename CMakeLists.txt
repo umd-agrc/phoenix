@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   sensor_msgs
   image_transport
+  message_filters
   cv_bridge
 )
 
@@ -108,7 +109,7 @@ find_package(OpenCV REQUIRED)
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES rotocrawler
-  CATKIN_DEPENDS roscpp rospy std_msgs sensor_msgs image_transport cv_bridge
+  CATKIN_DEPENDS roscpp rospy std_msgs sensor_msgs image_transport message_filters cv_bridge
 #  DEPENDS system_lib
 )
 

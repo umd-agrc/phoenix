@@ -9,7 +9,7 @@
   <url type="repository">https://github.com/umd-agrc/pheonix/tree/rotocopter</url>
   <url type="website">https://wiki.ros.org/rotocrawler</url>
   <author email="madforbes@umd.edu">Malcolm D. Forbes</author>
-  
+
   <!-- Buildtool Packages -->
   <!-- <<buildtool_depend>example_package</buildtool_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
@@ -24,6 +24,7 @@
   <build_export_depend>std_msgs</build_export_depend>
   <build_export_depend>sensor_msgs</build_export_depend>
   <build_export_depend>image_transport</build_export_depend>
+  <build_export_depend>message_filters</build_export_depend>
   <build_export_depend>OpenCV</build_export_depend>
   <build_export_depend>cv_bridge</build_export_depend>
 
@@ -34,6 +35,7 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
   <build_depend>image_transport</build_depend>
+  <build_depend>message_filters</build_depend>
   <build_depend>OpenCV</build_depend>
   <build_depend>cv_bridge</build_depend>
 
@@ -44,6 +46,7 @@
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>image_transport</exec_depend>
+  <exec_depend>message_filters</exec_depend>
   <exec_depend>OpenCV</exec_depend>
   <exec_depend>cv_brdige</exec_depend>
 
