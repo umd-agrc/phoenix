@@ -11,24 +11,24 @@
 
 <!-- Node Initialization -->
   <node
-    pkg="rotocrawler"
-    type="image_publisher"
-    name="picamera"
-    args="$(arg cam1)">
-    <remap from="camera/image" to="left/image_raw" />
+    pkg="cv_camera"
+    type="cv_camera_node"
+    name="picamera">
+    <param name="device_id" value ="$(arg cam1)"/>
+    <remap from="picamera/image_raw" to="stereo/left/image_raw"/>
+    <remap from="picamera/camera_info" to="stereo/left/camera_info"/>
   </node>
   <node
-    pkg="rotocrawler"
-    type="image_publisher"
-    name="usb_camera"
-    args="$(arg cam2)">
-    <remap from="camera/image" to="right/image_raw" />
+    pkg="cv_camera"
+    type="cv_camera_node"
+    name="usbcam">
+    <param name="device_id" value="$(arg cam2)"/>
+    <remap from="usbcam/image_raw" to="stereo/right/image_raw"/>
+    <remap from="usbcam/image_raw" to="stereo/right/image_raw"/>
   </node>
   <node
-    pkg="rotocrawler"
-    type="image_subscriber"
+    pkg="stereo_image_proc"
+    type="stereo_image_proc"
     name="stereo_image_proc">
-    <remap from="left/image" to="left/image_raw" />
-    <remap from="right/image" to="right/image_raw" />
   </node>
 </launch>
