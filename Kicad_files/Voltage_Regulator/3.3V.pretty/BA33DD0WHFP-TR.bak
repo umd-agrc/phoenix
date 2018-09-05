@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BA33DD0WHFP-TR
+#
+DEF BA33DD0WHFP-TR U 0 40 Y Y 1 L N
+F0 "U" -701 440 50 H V L BNN
+F1 "BA33DD0WHFP-TR" -701 -558 50 H V L BNN
+F2 "TO172P1054X2005-6N" 0 0 50 H I L BNN
+F3 "Good" 0 0 50 H I L BNN
+F4 "Fixed LDO Voltage Regulator, 3V to 25V, 450mV Dropout, 3.3Vout, 2Aout, HRP-5" 0 0 50 H I L BNN
+F5 "1.46 USD" 0 0 50 H I L BNN
+F6 "BA33DD0WHFP-TR" 0 0 50 H I L BNN
+F7 "Rohm" 0 0 50 H I L BNN
+F8 "TO-263-6 Rohm" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -700 400 700 400 N
+P 2 0 0 16 700 400 700 -400 N
+P 2 0 0 16 700 -400 -700 -400 N
+P 2 0 0 16 -700 -400 -700 400 N
+X VCC 2 -900 300 200 R 40 40 0 0 I 
+X CTL 1 -900 100 200 R 40 40 0 0 B 
+X NOTCONNECTED 5 -900 0 200 R 40 40 0 0 B 
+X OUT 4 900 300 200 L 40 40 0 0 O 
+X GND 3 900 -200 200 L 40 40 0 0 W 
+X GND1 6 900 -300 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

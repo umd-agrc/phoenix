@@ -1,0 +1,26 @@
+Drill report for /home/shastry/Dropbox/Ki_CAD/Phoenix/Phoenix_schema_ver3.kicad_pcb
+Created on Thu 12 Jul 2018 04:40:46 PM EDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Phoenix_schema_ver3-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (5 holes)
+    T2  0.50mm  0.020"  (3 holes)
+    T3  0.80mm  0.031"  (66 holes)
+    T4  4.30mm  0.169"  (6 holes)
+
+    Total plated holes count 80
+
+
+Drill file 'Phoenix_schema_ver3-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  4.00mm  0.157"  (4 holes)
+
+    Total unplated holes count 4

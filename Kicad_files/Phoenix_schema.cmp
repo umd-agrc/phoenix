@@ -1,0 +1,155 @@
+Cmp-Mod V01 Created by PcbNew   date = Wed 11 Jul 2018 09:48:08 PM EDT
+
+BeginCmp
+TimeStamp = 5B3174AE
+Path = 
+Reference = REF**;
+ValeurCmp = mech holes;
+IdModule  = holes:mech holes;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2BA6B4
+Path = /5B2BA404
+Reference = To EScs;
+ValeurCmp = To ESCs;
+IdModule  = XT30:XT30;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2A9957
+Path = /5B22681E
+Reference = ELKA;
+ValeurCmp = ELKA;
+IdModule  = ELKA:ELKA;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2810D9
+Path = /5B22674F
+Reference = R1;
+ValeurCmp = Receiver;
+IdModule  = XT30:SPMAJST6;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2810AD
+Path = /5B24102D
+Reference = J1;
+ValeurCmp = To battery;
+IdModule  = XT30:XT30;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2810CA
+Path = /5B23F496
+Reference = J16;
+ValeurCmp = For Programming;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04_Pitch2.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2A995D
+Path = /5B29B43A
+Reference = J3;
+ValeurCmp = 3.3 V;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2A9963
+Path = /5B29B788
+Reference = J4;
+ValeurCmp = GND;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2A9969
+Path = /5B29B3DB
+Reference = J5;
+ValeurCmp = 5 V;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2A996F
+Path = /5B2A9509
+Reference = J6;
+ValeurCmp = To ESCs;
+IdModule  = XT30:XT30;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2A997A
+Path = /5B27D9D0
+Reference = J9,J15;
+ValeurCmp = To Snapdragon;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x07_Pitch2.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2A9992
+Path = /5B213357
+Reference = Zigbee;
+ValeurCmp = Zigbee;
+IdModule  = DIP-20:DIP-20;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2A99D2
+Path = /5B2A76F4
+Reference = [NoRef];
+ValeurCmp = 5V regul;
+IdModule  = footprints:MIC29501-5.0WU;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2A99F7
+Path = /5B2A710B
+Reference = [NoRef];
+ValeurCmp = 3.3Vregul;
+IdModule  = TO172P1054X2005-6N:TO172P1054X2005-6N;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2AB104
+Path = /5B2AAC3F
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B2AB112
+Path = /5B2AABEA
+Reference = To ESCs;
+ValeurCmp = [NoVal];
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05_Pitch2.00mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B3174CB
+Path = 
+Reference = REF**;
+ValeurCmp = mech holes;
+IdModule  = holes:mech holes;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B317503
+Path = 
+Reference = REF**;
+ValeurCmp = mech holes;
+IdModule  = holes:mech holes;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B31752B
+Path = 
+Reference = REF**;
+ValeurCmp = mech holes;
+IdModule  = holes:mech holes;
+EndCmp
+
+EndListe

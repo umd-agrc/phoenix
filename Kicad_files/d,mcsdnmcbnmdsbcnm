@@ -1,0 +1,128 @@
+[33mcommit 33a074875c52529c6a6d7c747bda69b1853c0723[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 37208d7 5c0a13b
+Author: akshastry <shastry.iitk@gmail.com>
+Date:   Wed Sep 5 16:32:13 2018 -0400
+
+    Merge branch 'master' of https://github.com/umd-agrc/phoenix
+    
+    Updated with KIcad files
+
+[33mcommit 37208d75ca652f1e076608a5303df500f6241095[m
+Author: akshastry <shastry.iitk@gmail.com>
+Date:   Tue Sep 4 17:12:09 2018 -0400
+
+    pcb_version2
+
+[33mcommit 5c0a13b20657e550d4b05296a3e80cfb540846f3[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:51:52 2018 -0400
+
+    Add files via upload
+
+[33mcommit a9da5827c3d14793c72408f46cb4e87e134ddcdd[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:50:28 2018 -0400
+
+    Add files via upload
+
+[33mcommit b7a7a6e5839bb1095494fe0a3675513b5eb7a8a2[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:49:44 2018 -0400
+
+    Create Readme.md
+
+[33mcommit 7a6ec6db6601c11610515b7d6d2705b8de62773f[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:46:50 2018 -0400
+
+    Add files via upload
+
+[33mcommit 41eebb3280cb6e55a986609849e3f730cf945bef[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:45:16 2018 -0400
+
+    Delete Build your drone and fly it! Walkthrough instructions_v1.1.pdf
+
+[33mcommit 4eb2e878816846fa56267f8cd8f8c057781adf95[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:45:07 2018 -0400
+
+    Delete lm80-p0436-5_e_peripherals_programming_guide.pdf
+
+[33mcommit 467173a82febe0f0a6f73591958bc0e63135ae3e[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:45:01 2018 -0400
+
+    Delete snapdragon_ahs_vtol_2017.pdf
+
+[33mcommit 03c1424b62e6963c165141bb9b8088366b450083[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:41:28 2018 -0400
+
+    Update Readme.md
+
+[33mcommit 22363ac2a328e2f50190f8ae1b44cf9a14f07108[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:40:53 2018 -0400
+
+    Create Readme.md
+
+[33mcommit 05615e3118effb3ebc2478f9e65cd90b09087e8c[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:40:04 2018 -0400
+
+    Delete snapdragon
+
+[33mcommit 287af4ae4b0338f4e4e86abfd571d9f1b2c0266b[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:39:39 2018 -0400
+
+    Create snapdragon
+
+[33mcommit 604c00798264c6e5bdaa38ae2c91a581b35e1750[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:34:31 2018 -0400
+
+    Add files via upload
+
+[33mcommit 02a402a74f3b4b78ccc0f0ddc9e5325d218822fc[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jul 13 13:22:54 2018 -0400
+
+    Add files via upload
+
+[33mcommit f23d8b79a0918f15300a5133eff3092279691604[m
+Author: shastry-iitk <39351792+shastry-iitk@users.noreply.github.com>
+Date:   Fri Jun 8 13:30:30 2018 -0400
+
+    First_meedting_draft
+
+[33mcommit 841c0c6f335e32d6c58850c1d1331c2dc15e046d[m
+Author: han-so1omon <esolomon1221@gmail.com>
+Date:   Tue Jun 5 12:06:34 2018 -0400
+
+    formatting readme
+
+[33mcommit e4f88008829ed36e93d26db27b7afab7365bb595[m
+Author: han-so1omon <esolomon1221@gmail.com>
+Date:   Tue Jun 5 12:05:08 2018 -0400
+
+    with new files
+
+[33mcommit acf573989ecb3650f5bcc76db63599f2bacf37c1[m
+Author: han-so1omon <esolomon1221@gmail.com>
+Date:   Tue Jun 5 12:04:32 2018 -0400
+
+    adding directory structure
+
+[33mcommit fdf5f3af26ca39ce5744ba9fea0c2cb7231259af[m
+Author: han-so1omon <esolomon1221@gmail.com>
+Date:   Tue Jun 5 12:02:14 2018 -0400
+
+    initial commit
+
+[33mcommit e23543a4ef2b402caf1b98960bd7e6d54cf028e1[m
+Author: han-so1omon <esolomon1221@gmail.com>
+Date:   Tue Jun 5 11:57:59 2018 -0400
+
+    Initial commit
