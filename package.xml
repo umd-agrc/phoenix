@@ -25,7 +25,7 @@
   <build_export_depend>sensor_msgs</build_export_depend>
   <build_export_depend>image_transport</build_export_depend>
   <build_export_depend>message_filters</build_export_depend>
-  <build_export_depend>OpenCV</build_export_depend>
+  <build_export_depend>opencv3</build_export_depend>
   <build_export_depend>cv_bridge</build_export_depend>
 
   <!-- Build upon Compiling -->
@@ -36,19 +36,19 @@
   <build_depend>sensor_msgs</build_depend>
   <build_depend>image_transport</build_depend>
   <build_depend>message_filters</build_depend>
-  <build_depend>OpenCV</build_depend>
+  <build_depend>opencv3</build_depend>
   <build_depend>cv_bridge</build_depend>
 
   <!-- Build for Runtime -->
   <!--   <exec_depend>example_package</exec_depend> -->
-  <exec_depend>rosscpp</exec_depend>
+  <exec_depend>roscpp</exec_depend>
   <exec_depend>rospy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
   <exec_depend>image_transport</exec_depend>
   <exec_depend>message_filters</exec_depend>
-  <exec_depend>OpenCV</exec_depend>
-  <exec_depend>cv_brdige</exec_depend>
+  <exec_depend>opencv3</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
 
   <!-- Testing Packages -->
   <!--   <test_depend>example_package</test_depend> -->
